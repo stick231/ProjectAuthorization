@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Авторизация</title>
+</head>
+<body>
+<div id="block">
+<form id="FormInput">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0ZaeaWnnVQfVCoy0b7NMDBSfETaekGnErRg&usqp=CAU" alt="" srcset="" width="200px" height="200px">
+    <h2 class="Title">Авторизация</h2>
+    <hr>
+    <input class="input" type="text" name="first-name" id="username" placeholder="👤 логин" required><br>
+    <input class="input" type="password" name="password" id="password" placeholder="🔒 пароль" required pattern="[a-z0-9]{7,}"> <br>
+    <label class="textLabel">Я согласен получать рассылку <input type="checkbox" ></label><br>
+    <input type="submit" id="buttonSubmit" value="Войти"/>
+</form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
